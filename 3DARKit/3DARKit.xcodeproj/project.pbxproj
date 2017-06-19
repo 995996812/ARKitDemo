@@ -18,6 +18,7 @@
 		2E0EFC8F1EEFCBB100369352 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0EFC8D1EEFCBB100369352 /* ARViewController.swift */; };
 		2E0EFC901EEFCBB100369352 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0EFC8E1EEFCBB100369352 /* ARViewController.xib */; };
 		2E549AAB1EF25EE700B38558 /* GrounpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E549AAA1EF25EE700B38558 /* GrounpViewController.swift */; };
+		2ED9A6351EF3B663008E9AEC /* python in Resources */ = {isa = PBXBuildFile; fileRef = 2ED9A6341EF3B662008E9AEC /* python */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2E0EFC8D1EEFCBB100369352 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		2E0EFC8E1EEFCBB100369352 /* ARViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
 		2E549AAA1EF25EE700B38558 /* GrounpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrounpViewController.swift; sourceTree = "<group>"; };
+		2ED9A6341EF3B662008E9AEC /* python */ = {isa = PBXFileReference; lastKnownFileType = folder; name = python; path = ../../../python; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				2E0EFC591EEFC37200369352 /* AppDelegate.swift */,
+				2ED9A6341EF3B662008E9AEC /* python */,
 				2E0EFC5B1EEFC37200369352 /* art.scnassets */,
 				2E0EFC5D1EEFC37200369352 /* ViewController.swift */,
 				2E0EFC8D1EEFCBB100369352 /* ARViewController.swift */,
@@ -245,6 +248,7 @@
 				2E0EFC661EEFC37200369352 /* LaunchScreen.storyboard in Resources */,
 				2E0EFC901EEFCBB100369352 /* ARViewController.xib in Resources */,
 				2E0EFC631EEFC37200369352 /* Assets.xcassets in Resources */,
+				2ED9A6351EF3B663008E9AEC /* python in Resources */,
 				2E0EFC611EEFC37200369352 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

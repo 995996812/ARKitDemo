@@ -238,16 +238,18 @@ extension GrounpViewController{
     // #MARK: - ARSessionDelegate
     func session(_ session: ARSession, didUpdate frame: ARFrame) {
         if type != ShowType.dynamic {
+            
             return
         }
+        
         /*CGFloat(frame.camera.transform.columns[3].x),frame.camera.transform.columns[3].y,frame.camera.transform.columns[3].z
          */
+        
         if (self.planeNode != nil) {
-            
             
 //        let aaaa: SCNVector4 = SCNVector4(frame.camera.transform.columns[3])
 //        self.planeNode!.position =
-            
+        
         }
         
         print("相机移动")
